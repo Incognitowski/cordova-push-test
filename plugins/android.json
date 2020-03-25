@@ -1,0 +1,36 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.inc.push"
+    },
+    "phonegap-plugin-push": {
+      "ANDROID_SUPPORT_V13_VERSION": "27.+",
+      "FCM_VERSION": "17.0.+",
+      "PACKAGE_NAME": "com.inc.push"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "com.inc.push"
+    },
+    "cordova-softniels-plugin": {
+      "PACKAGE_NAME": "com.inc.push"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "com.inc.push"
+    },
+    "phonegap-plugin-multidex": {
+      "PACKAGE_NAME": "com.inc.push"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.inc.push"
+    }
+  }
+}

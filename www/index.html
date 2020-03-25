@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+	<title>Push</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="pt-br">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<meta name="theme-color" content="#0f7480">
+	
+</head>
+
+<style>
+	body {
+		position: relative;
+		margin: 0;
+	}
+
+	.flex {
+		display: flex;
+	}
+
+	.row {
+		flex-direction: row;
+	}
+
+	.col {
+		flex-direction: column;
+	}
+
+	.w-full {
+		width: 100%;
+	}
+
+	.h-100 {
+		height: 100vh;
+	}
+
+	.w-100 {
+		width: 100vw;
+	}
+
+	.justify-around {
+		justify-content: space-around;
+	}
+
+	.align-center {
+		align-items: center;
+	}
+
+</style>
+
+<body class="w-100 h-100">
+
+	<div class="flex row justify-around items-center w-full" style="height: 20vh;">
+		<button onclick="logarTokenNoConsole()">Logar Token</button>
+		<button onclick="logarNotificacoesDoLocalStorageNoConsole()">Logar Notificações</button>
+		<button onclick="limparNotificacoesDoLocalStorage()">Limpar notificações</button>
+	</div>
+	
+	<div class="flex col justify-around w-full" style="height: 80vh; overflow-y: scroll;" id="notificacaoContainer"></div>
+	
+</body>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+
+</html>

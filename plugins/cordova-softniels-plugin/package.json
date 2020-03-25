@@ -1,0 +1,56 @@
+{
+  "_from": "git+https://github.com/rafaelgalle/cordova-softniels-plugin.git#1.0.2",
+  "_id": "cordova-softniels-plugin@1.0.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-softniels-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/rafaelgalle/cordova-softniels-plugin.git#1.0.2",
+    "rawSpec": "https://github.com/rafaelgalle/cordova-softniels-plugin.git#1.0.2",
+    "saveSpec": "git+https://github.com/rafaelgalle/cordova-softniels-plugin.git#1.0.2",
+    "fetchSpec": "https://github.com/rafaelgalle/cordova-softniels-plugin.git",
+    "gitCommittish": "1.0.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/rafaelgalle/cordova-softniels-plugin.git#5234fb4a6a833c74a438136441a91b510d7b9f92",
+  "_spec": "https://github.com/rafaelgalle/cordova-softniels-plugin.git#1.0.2",
+  "_where": "C:\\Projects\\cordova-push-test",
+  "author": {
+    "name": "Rafael Galle"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelgalle/cordova-softniels-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-softniels-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Controle sobre otimização de bateria.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/rafaelgalle/cordova-softniels-plugin",
+  "keywords": [
+    "battery",
+    "optimization"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-softniels-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelgalle/cordova-softniels-plugin.git"
+  },
+  "version": "1.0.2"
+}
